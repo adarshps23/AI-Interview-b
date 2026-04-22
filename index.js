@@ -8,7 +8,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-  origin: "https://ai-interview-f.vercel.app/",
+  origin: "https://ai-interview-f.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type"]
 }));
